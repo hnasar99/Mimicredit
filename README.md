@@ -1,4 +1,4 @@
-# ZonaFranca Mimic Demo (Vite + React)
+# MimicCredit - Mimic Hackaton Trade Finance Automation Solution
 
 This project is a Vite React demo integrating Mimic Protocol tasks for three roles: Exportador, Validador, Importador.
 It includes a frontend app and skeleton integration with @mimicprotocol/sdk plus Mimic task manifests in the `mimic_tasks/` folder ready to be compiled with the Mimic CLI.
