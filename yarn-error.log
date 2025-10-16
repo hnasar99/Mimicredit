@@ -1,0 +1,59 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @mimicprotocol/sdk
+
+PATH: 
+  C:\Users\HP\.dotnet\tools\.store\powershell\7.3.6\powershell\7.3.6\tools\net7.0\any\win;c:\Users\HP\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Microsoft MPI\Bin\;C:\Python312\Scripts\;C:\Python312\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Users\HP\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\HP\AppData\Local\Pub\Cache\bin;C:\Program Files (x86)\Yarn\bin\;C:\Android\sdk\emulator;C:\Android\sdk\tools;C:\Android\sdk\platform-tools;C:\Program Files\GitHub CLI\;C:\Program Files\CMake\bin;C:\Program Files (x86)\PDFtk\bin\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files;C:\Program Files\Git\cmd;C:\Users\HP\scoop\shims;C:\Users\HP\AppData\Local\pnpm;C:\Users\HP\.cargo\bin;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\.dotnet\tools;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\HP\AppData\Roaming\npm;C:\Users\HP\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\HP\AppData\Local\Yarn\bin;C:\Users\HP\AppData\Roaming\Pub\Cache\bin;C:\Flutter-sdk\3.7.12\flutter\bin;C:\Users\HP\AppData\Local\GitHubDesktop\bin;C:\Users\HP\AppData\Local\Programs\cursor\resources\app\bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  24.6.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/viem/-/viem-1.21.4.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141375:19)
+      at Object.onceWrapper (node:events:622:28)
+      at ClientRequest.emit (node:events:508:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:919:9)
+      at Object.onceWrapper (node:events:622:28)
+      at TLSSocket.emit (node:events:520:35)
+      at Socket._onTimeout (node:net:604:8)
+      at listOnTimeout (node:internal/timers:608:17)
+      at process.processTimers (node:internal/timers:543:7)
+
+npm manifest: 
+  {
+    "name": "zonafranca-mimic-vite",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "ethers": "^6.8.0",
+      "wagmi": "^1.4.0",
+      "@rainbow-me/rainbowkit": "^1.3.0",
+      "@mimicprotocol/sdk": "^0.0.1"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-react": "^4.0.0",
+      "vite": "^4.0.0",
+      "tailwindcss": "^3.3.0",
+      "postcss": "^8.4.0",
+      "autoprefixer": "^10.4.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

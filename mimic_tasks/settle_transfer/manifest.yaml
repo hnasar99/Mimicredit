@@ -1,0 +1,19 @@
+version: 1.0.0
+name: SettleAndTransferNFT
+description: El importador paga en USDC y recibe el NFT
+inputs:
+  - nftId:
+      type: uint256
+  - validator:
+      type: address
+      description: Dirección del validador (propietario previo)
+  - importador:
+      type: address
+      description: Dirección del comprador/importador
+  - amount:
+      type: uint256
+  - chainId:
+      type: uint32
+abis:
+  - NFT: './abis/NFT.json'
+  - ERC20: './abis/ERC20.json'

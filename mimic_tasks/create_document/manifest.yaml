@@ -1,0 +1,15 @@
+version: 1.0.0
+name: CreateDocumentNFT
+description: El exportador crea un NFT con el link del documento y el monto en USDC asociado
+inputs:
+  - docLink:
+      type: string
+      description: URL del documento a tokenizar
+  - validator:
+      type: address
+      description: Dirección del validador que será owner inicial del NFT
+  - chainId:
+      type: uint32
+      description: Chain donde se ejecuta el NFT
+abis:
+  - NFT: './abis/NFT.json'

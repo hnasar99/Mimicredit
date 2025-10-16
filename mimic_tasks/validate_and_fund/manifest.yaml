@@ -1,0 +1,18 @@
+version: 1.0.0
+name: ValidateAndFund
+description: El validador aprueba el documento NFT, lo usa como colateral y envía USDC al exportador
+inputs:
+  - nftId:
+      type: uint256
+      description: ID del NFT a validar
+  - exportador:
+      type: address
+      description: Dirección del exportador a quien se le envían los fondos
+  - amount:
+      type: uint256
+      description: Monto de USDC a transferir
+  - chainId:
+      type: uint32
+abis:
+  - NFT: './abis/NFT.json'
+  - ERC20: './abis/ERC20.json'
