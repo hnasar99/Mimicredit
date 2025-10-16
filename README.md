@@ -4,23 +4,21 @@ This project is Demo integrating Mimic Protocol tasks for three roles: Exportado
 It includes a frontend app and skeleton integration with @mimicprotocol/sdk plus Mimic task manifests in the `mimic_tasks/` folder ready to be compiled with the Mimic CLI.
 
 Explore Here other posible integrations to our team's main solution:
-Perfect ✅ Here’s a **presentation-friendly English version** of your text — concise, fluent, and formatted for slides, investor decks, or documentation.
 
----
 
-## 🌐 Free Zone Operations Powered by Mimic
+## 🌐 Other Possible Operations used by our solution & powered by Mimic
 
----
+
 
 ### 🔹 1. Prefunding & International Payments
 
 **Scenario:**
 An exporter issues a tokenized invoice. The buyer sends stablecoins from another blockchain or country.
 
-**How Mimic Works:**
+How Mimic Works:
 
-* **Detects** confirmed delivery (RFID + event).
-* **Checks** FX rate (USD/USDC) and KYC/AML compliance.
+* Detects confirmed delivery (RFID + event).
+* Checks FX rate (USD/USDC) and KYC/AML compliance.
 * **Creates Intent:** `transfer USDC(50,000) from buyerVault → exporterVault`.
 * **Executes** best route (bridge or DEX) and settles on-chain.
 
